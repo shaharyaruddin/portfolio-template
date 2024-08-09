@@ -1,11 +1,8 @@
-/* Change this file to get your personal Portfolio */
 
-// To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
-// Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
@@ -13,37 +10,22 @@ const splashScreen = {
   duration: 2000 // Set animation duration as per your animation
 };
 
-// Summary And Greeting Section
 
 const illustration = {
   animated: true // Set to false to use static SVG
 };
 
 const greeting = {
-  username: "Sherry",
-  title: "Hi all, I'm Sherry",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
-  resumeLink:
-    "/", // Set to empty to hide the button
+  username: "Dr. James Carter",
+  title:
+    "Enhancing Cybersecurity Protocols for Financial Institutions in the UK",
+  subTitle:
+    "This research aims to enhance cybersecurity for UK financial institutions by developing advanced protocols to address the evolving threats posed by digital banking and online transactions. The study identifies system vulnerabilities, proposes innovative risk mitigation strategies, and offers practical guidelines for implementation. The findings will help financial institutions protect sensitive data and strengthen their defenses against cyber threats.",
+  resumeLink: "/", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
-
-const socialMediaLinks = {
-  github: "https://github.com/sherry",
-  linkedin: "https://www.linkedin.com/in/sherry/",
-  gmail: "sherry@gmail.com",
-  gitlab: "https://gitlab.com/sherry",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@sherry",
-  stackoverflow: "https://stackoverflow.com/users/10422806/sherry",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
-};
 
 // Skills Section
 
@@ -211,39 +193,12 @@ const openSource = {
 
 // Some big projects you have worked on
 
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+const about = {
+  title: "Biography",
+  subtitle:" Dr. James Carter is a leading expert in cybersecurity, with a career spanning over two decades in both academia and the tech industry. He earned his Ph.D. in Computer Science from the University of Cambridge, where he specialized in information security. Dr. Carter has played a pivotal role in several high-profile cybersecurity initiatives, particularly within the financial sector. His work focuses on developing cutting-edge security protocols to counter emerging threats in the digital landscape.Throughout his career, Dr. Carter has been driven by a passion for safeguarding critical information systems, ensuring that they remain resilient in the face of increasingly sophisticated cyberattacks. He has authored numerous papers in top-tier journals and is frequently sought after as a speaker at global conferences on cybersecurity. Dr. Carter's contributions have not only advanced the field of IT security but have also had a significant impact on the practical protection of financial institutions in the UK and beyond.",
+   display: true // Set false to hide this section, defaults to true
 };
 
-// Achievement Section
-// Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
@@ -388,14 +343,13 @@ const isHireable = false; // Set false if you are not looking for a job. Also is
 export {
   illustration,
   greeting,
-  socialMediaLinks,
   splashScreen,
   skillsSection,
   educationInfo,
   techStack,
   workExperiences,
   openSource,
-  bigProjects,
+  about,
   achievementSection,
   blogSection,
   talkSection,
