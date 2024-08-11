@@ -49,7 +49,7 @@ export default function Greeting() {
         <div
   style={{
     width: "100%",
-    maxWidth: "24rem", // Equivalent to max-w-sm or max-w-md in Tailwind
+    maxWidth: "34rem", // Equivalent to max-w-sm or max-w-md in Tailwind
     marginBottom: "2.5rem", // Equivalent to mb-10 in Tailwind
     margin: "0 auto",
     textAlign: "center",
