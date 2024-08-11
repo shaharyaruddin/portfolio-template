@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function StartupProject() {
+export default function About() {
   const { isDark } = useContext(StyleContext);
   const { ref, inView } = useInView({
     triggerOnce: true, 
@@ -18,7 +18,7 @@ export default function StartupProject() {
 
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="projects" ref={ref}>
+      <div className="main" id="about" ref={ref}>
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-4">{about.title}</h1>
           <p className={`${isDark ? "text-gray-300" : "text-gray-700"} text-lg mb-8`}>

@@ -11,7 +11,7 @@ export default function Achievement() {
   }
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="achievements">
+      <div className="main" id="researches">
         <div className="achievement-main-div">
           <div className="achievement-header">
             <h1
@@ -33,7 +33,7 @@ export default function Achievement() {
               {achievementSection.subtitle}
             </p>
           </div>
-          <div className="achievement-cards-div">
+          <div className=" grid md:grid-cols-3 grid-cols-1 gap-7 rounded-lg ">
             {achievementSection.achievementsCards.map((card, i) => {
               return (
                 <AchievementCard
@@ -43,8 +43,6 @@ export default function Achievement() {
                     title: card.title,
                     description: card.subtitle,
                     image: card.image,
-                    imageAlt: card.imageAlt,
-                    footer: card.footerLink
                   }}
                 />
               );

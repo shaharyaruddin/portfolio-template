@@ -206,58 +206,45 @@ const about = {
 
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Research 🏆 "),
+  subtitle: "Imagination Trumps Knowledge!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Enhancing Cybersecurity Protocols for Financial Institutions",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+        "This research develops advanced cybersecurity measures for UK financial institutions, addressing vulnerabilities in digital banking and proposing innovative solutions to protect against evolving cyber threats.",
+      image: require("./assets/images/reseacrh.png"),
+    
     },
     {
-      title: "Google Assistant Action",
+      title: " Artificial Intelligence in Fraud Detection",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+        "Focused on the application of AI in financial fraud detection, this study explores machine learning algorithms that can identify and prevent fraudulent activities with higher accuracy and efficiency.",
+      image: require("./assets/images/reseacrh.png"),
+
+    },
+    {
+      title: "Blockchain for Secure Data Sharing",
+      subtitle:
+        "Investigating the use of blockchain technology to enhance data security, this research examines how decentralized ledgers can be used to securely share sensitive information across financial networks.",
+        image: require("./assets/images/reseacrh.png"),
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "Quantum Computing in Cryptography",
+      subtitle:
+        "This research explores the potential of quantum computing to revolutionize cryptographic methods, aiming to develop encryption techniques that can withstand the power of quantum attacks.",
+      image: require("./assets/images/reseacrh.png"),
+
+    },
+
+    {
+      title: "Data Privacy in the Age of Big Data",
+      subtitle:
+        "Focusing on the challenges of maintaining data privacy, this study examines strategies for protecting personal information in a world increasingly dominated by big data analytics.",
+      image: require("./assets/images/reseacrh.png"),
+
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -333,7 +320,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-0000000000",
-  email_address: "sherry@gmail.com"
+  email_address: "JamesCarter@gmail.com"
 };
 
 // Twitter Section
