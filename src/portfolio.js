@@ -25,10 +25,6 @@ const greeting = {
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
-// Social Media Links
-
-// Skills Section
-
 const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
@@ -135,15 +131,27 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Project Management", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Research Methodology",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Communication",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Data Visualization",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Critical thinking",
+      progressPercentage: "65%"
+    },
+    {
+      Stack: "Scientific Writing",
       progressPercentage: "60%"
     }
   ],
@@ -156,9 +164,8 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      role: "Assiatant Professor",
+      company: "XYZ university",
       date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -167,16 +174,14 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      role: "Research Analyst",
+      company: "XYZ university",
       date: "May 2017 – May 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      role: "Visiting Scholar",
+      company: "XYZ university",
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
@@ -196,7 +201,7 @@ const openSource = {
 const about = {
   title: "Biography",
   subtitle:" Dr. James Carter is a leading expert in cybersecurity, with a career spanning over two decades in both academia and the tech industry. He earned his Ph.D. in Computer Science from the University of Cambridge, where he specialized in information security. Dr. Carter has played a pivotal role in several high-profile cybersecurity initiatives, particularly within the financial sector. His work focuses on developing cutting-edge security protocols to counter emerging threats in the digital landscape.Throughout his career, Dr. Carter has been driven by a passion for safeguarding critical information systems, ensuring that they remain resilient in the face of increasingly sophisticated cyberattacks. He has authored numerous papers in top-tier journals and is frequently sought after as a speaker at global conferences on cybersecurity. Dr. Carter's contributions have not only advanced the field of IT security but have also had a significant impact on the practical protection of financial institutions in the UK and beyond.",
-   display: true // Set false to hide this section, defaults to true
+   display: true 
 };
 
 
