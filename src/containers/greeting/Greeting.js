@@ -3,7 +3,7 @@ import { Fade } from "react-reveal";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
-import manOnTable from "../../assets/images/manOnTable.jpg";
+import manOnTable from "../../assets/images/researcher1.png";
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
