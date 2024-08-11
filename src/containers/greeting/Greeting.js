@@ -13,13 +13,13 @@ export default function Greeting() {
   return (
     <Fade bottom duration={1000} distance="40px">
       <div
-        className="flex flex-col md:flex-row items-center justify-center py-10 px-4 md:px-10 lg:px-20"
+        className="flex flex-col md:flex-row items-center justify-center px-4 md:px-10 lg:px-20"
         id="greeting"
       >
         <div className="w-full md:w-1/2 mb-10 md:mb-0">
           <div>
             <h1
-              className={`text-4xl font-bold pt-7 md:mt-2 ${
+              className={`text-4xl font-bold md:mt-2 ${
                 isDark ? "text-white" : "text-gray-800"
               }`}
             >
@@ -49,8 +49,8 @@ export default function Greeting() {
         <div
   style={{
     width: "100%",
-    maxWidth: "34rem", // Equivalent to max-w-sm or max-w-md in Tailwind
-    marginBottom: "2.5rem", // Equivalent to mb-10 in Tailwind
+    maxWidth: "34rem", 
+    marginBottom: "2.5rem", 
     margin: "0 auto",
     textAlign: "center",
   }}
@@ -61,7 +61,7 @@ export default function Greeting() {
     style={{
       width: "100%",
       height: "auto",
-      borderRadius: "0.75rem", // Equivalent to rounded-xl in Tailwind
+      borderRadius: "0.75rem",
     }}
   />
 </div>
