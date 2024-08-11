@@ -46,11 +46,11 @@ export default function Greeting() {
             </div>
           </div>
         </div>
-        <div className=" w-full md:w-1/2">
+        <div className=" w-3/4 md:w-[30%] ">
           <img
             alt="man sitting on table"
             src={manOnTable}
-            className="w-full h-auto max-w-sm md:max-w-md rounded-xl mx-auto"
+            className="w-full md:h-[30rem] h-auto max-w-sm md:max-w-md rounded-xl mx-auto"
           />
         </div>
       </div>
