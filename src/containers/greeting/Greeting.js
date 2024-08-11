@@ -46,13 +46,26 @@ export default function Greeting() {
             </div>
           </div>
         </div>
-        <div className=" w-3/4 md:w-[30%] ">
-          <img
-            alt="man sitting on table"
-            src={manOnTable}
-            className="w-full md:h-[30rem] h-auto max-w-sm md:max-w-md rounded-xl mx-auto"
-          />
-        </div>
+        <div
+  style={{
+    width: "100%",
+    maxWidth: "24rem", // Equivalent to max-w-sm or max-w-md in Tailwind
+    marginBottom: "2.5rem", // Equivalent to mb-10 in Tailwind
+    margin: "0 auto",
+    textAlign: "center",
+  }}
+>
+  <img
+    alt="man sitting on table"
+    src={manOnTable}
+    style={{
+      width: "100%",
+      height: "auto",
+      borderRadius: "0.75rem", // Equivalent to rounded-xl in Tailwind
+    }}
+  />
+</div>
+
       </div>
     </Fade>
   );
